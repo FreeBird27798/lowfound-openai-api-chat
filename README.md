@@ -1,38 +1,27 @@
-# LowFound OpenAI API Chat
+# AI Chatbot with OpenAI Integration 🤖
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+A fully functional AI Chat application built with Flutter. This app communicates with the OpenAI API to provide intelligent, real-time responses.
 
-## Description
-LowFound OpenAI API Chat is a chat application powered by the OpenAI API, allowing users to engage in intelligent conversations using artificial intelligence.
+## ✨ Key Features
+- **OpenAI Integration:** Powered by GPT models for natural conversations.
+- **Dynamic UI:** Seamless switching between Dark and Light modes.
+- **Real-time Interaction:** Smooth handling of API requests and responses.
+- **Clean Architecture:** Organized code for easy API key configuration.
 
-## Features
-- Real-time messaging for seamless communication
-- Chat history to view past conversations
-- AI-powered responses for intelligent and natural language interactions
+---
 
-## Installation and Setup
-1. Make sure you have Flutter installed on your machine. If not, refer to the [Flutter documentation](https://flutter.dev/docs/get-started/install) for installation instructions.
-2. Clone this repository to your local machine.
-3. Run `flutter pub get` to install the required dependencies.
-4. Follow the configuration steps mentioned below.
+## 📸 Screenshots
 
-## Configuration
-1. Obtain an API key from the OpenAI API platform. Visit [OpenAI API documentation](https://docs.openai.com/) for more details.
-2. Replace the placeholder API key in the code with your own key. Look for the `apiKey` variable in the project files and replace it with your actual API key.
+| <p align="center">Light Mode</p> | <p align="center">Dark Mode</p> |
+|:---:|:---:|
+| <p align="center"><b>Login Screen</b></p> | <p align="center"><b>Login Screen</b></p> |
+| <img src="screenshots/light_login_screen.png" width="350"> | <img src="screenshots/dark_login_screen.png" width="350"> |
+| <p align="center"><b>Chat Screen</b></p> | <p align="center"><b>Chat Screen</b></p> |
+| <img src="screenshots/light_chat_screen.png" width="350"> | <img src="screenshots/dark_chat_screen.png" width="350"> |
 
-## Usage and Examples
-1. Launch the app on a simulator or connected device.
-2. Enter your message in the chat input field.
-3. Tap the send button to send the message.
-4. The app will process the message using the OpenAI API and display the AI-generated response.
-5. Continue the conversation by sending additional messages.
+---
 
-## Contributing
-Contributions to the LowFound OpenAI API Chat project are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
-
-## Contact
-For any questions or inquiries, feel free to reach out to the project maintainer:
-- Email: [mailto:freebird27798@gmail.com]
-- LinkedIn: [https://www.linkedin.com/in/freebird27798/]
-- Twitter: [https://twitter.com/freebird27798]
-
+## 🛠️ Tech Stack
+- **Framework:** Flutter
+- **State Management:** (Provider)
+- **API:** OpenAI (REST API)
